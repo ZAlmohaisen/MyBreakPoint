@@ -1,0 +1,6 @@
+framework module Pods_MyBreakPoint {
+  umbrella header "Pods-MyBreakPoint-umbrella.h"
+
+  export *
+  module * { export * }
+}
