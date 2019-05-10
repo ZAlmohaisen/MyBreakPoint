@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		254CC2F7BC11C1526ACF1467 /* Pods_MyBreakPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2AA8CAAD876893427348DD /* Pods_MyBreakPoint.framework */; };
 		7712AB24227967F0006738F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB23227967F0006738F7 /* AppDelegate.swift */; };
-		7712AB26227967F0006738F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB25227967F0006738F7 /* FirstViewController.swift */; };
-		7712AB28227967F0006738F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB27227967F0006738F7 /* SecondViewController.swift */; };
+		7712AB26227967F0006738F7 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB25227967F0006738F7 /* FeedVC.swift */; };
+		7712AB28227967F0006738F7 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB27227967F0006738F7 /* GroupsVC.swift */; };
 		7712AB2B227967F0006738F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7712AB29227967F0006738F7 /* Main.storyboard */; };
 		7712AB2D227967F1006738F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7712AB2C227967F1006738F7 /* Assets.xcassets */; };
 		7712AB30227967F1006738F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7712AB2E227967F1006738F7 /* LaunchScreen.storyboard */; };
@@ -21,6 +21,8 @@
 		7712AB4522799202006738F7 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB4422799202006738F7 /* InsetTextField.swift */; };
 		7712AB47227996CB006738F7 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB46227996CB006738F7 /* ShadowView.swift */; };
 		7712AB4922799805006738F7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7712AB4822799805006738F7 /* AuthService.swift */; };
+		772A44742285A1CC00E82ECD /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A44732285A1CC00E82ECD /* MeVC.swift */; };
+		772A44762285A6F200E82ECD /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A44752285A6F200E82ECD /* CreatePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,8 @@
 		5162E53EECD8F5FF3E6462A3 /* Pods-MyBreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBreakPoint.release.xcconfig"; path = "Target Support Files/Pods-MyBreakPoint/Pods-MyBreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		7712AB20227967F0006738F7 /* MyBreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7712AB23227967F0006738F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7712AB25227967F0006738F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7712AB27227967F0006738F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7712AB25227967F0006738F7 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		7712AB27227967F0006738F7 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		7712AB2A227967F0006738F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7712AB2C227967F1006738F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7712AB2F227967F1006738F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +43,8 @@
 		7712AB4422799202006738F7 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7712AB46227996CB006738F7 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		7712AB4822799805006738F7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		772A44732285A1CC00E82ECD /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		772A44752285A6F200E82ECD /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		DD2AA8CAAD876893427348DD /* Pods_MyBreakPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBreakPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,10 +116,12 @@
 		7712AB3722796831006738F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7712AB25227967F0006738F7 /* FirstViewController.swift */,
-				7712AB27227967F0006738F7 /* SecondViewController.swift */,
+				7712AB25227967F0006738F7 /* FeedVC.swift */,
+				7712AB27227967F0006738F7 /* GroupsVC.swift */,
 				7712AB4022799173006738F7 /* AuthVC.swift */,
 				7712AB42227991AC006738F7 /* LoginVC.swift */,
+				772A44732285A1CC00E82ECD /* MeVC.swift */,
+				772A44752285A6F200E82ECD /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,13 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772A44742285A1CC00E82ECD /* MeVC.swift in Sources */,
 				7712AB4122799173006738F7 /* AuthVC.swift in Sources */,
-				7712AB28227967F0006738F7 /* SecondViewController.swift in Sources */,
+				7712AB28227967F0006738F7 /* GroupsVC.swift in Sources */,
 				7712AB43227991AC006738F7 /* LoginVC.swift in Sources */,
 				7712AB4922799805006738F7 /* AuthService.swift in Sources */,
 				7712AB24227967F0006738F7 /* AppDelegate.swift in Sources */,
 				7712AB47227996CB006738F7 /* ShadowView.swift in Sources */,
-				7712AB26227967F0006738F7 /* FirstViewController.swift in Sources */,
+				772A44762285A6F200E82ECD /* CreatePostVC.swift in Sources */,
+				7712AB26227967F0006738F7 /* FeedVC.swift in Sources */,
 				7712AB4522799202006738F7 /* InsetTextField.swift in Sources */,
 				7712AB3F2279870E006738F7 /* DataService.swift in Sources */,
 			);
