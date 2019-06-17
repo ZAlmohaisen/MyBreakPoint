@@ -24,7 +24,7 @@ class FeedVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         DataService.instance.getAllFeedMessages { (returnMessageArray) in
-            self.messageArray = returnMessageArray
+            self.messageArray = returnMessageArray.reversed()
             self.tableView.reloadData()
         }
     }
@@ -41,11 +41,14 @@ extension FeedVC: UITableViewDelegate, UITableViewDataSource {
         return messageArray.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell") as? FeedCell else {return UITableViewCell()}
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell") as? FeedCell else {return UITableViewCell()}
         let image = UIImage(named: "defaultProfileImage")
         let message = messageArray[indexPath.row]
         
-        cell.configureCell(profileImage: image!, email: message.senderId, content: message.content)
+        DataService.instance.getUsername(forUID: message.senderId) { (returnedUsername) in
+            cell.configureCell(profileImage: image!, email: message.senderId, content: message.content)
+        }
         return cell
     }
 }
