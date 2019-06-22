@@ -515,7 +515,7 @@
                         <outlet property="mebersLbl" destination="3qd-HI-kW3" id="8ct-lq-mzE"/>
                         <outlet property="messageTextField" destination="XMS-CU-7oD" id="rYo-3h-53u"/>
                         <outlet property="sendBtn" destination="6GR-VM-9AR" id="7F8-aC-HNf"/>
-                        <outlet property="sendBtnView" destination="XMS-CU-7oD" id="JX3-mC-QxI"/>
+                        <outlet property="sendBtnView" destination="oqj-nf-pXf" id="dhb-RZ-6m3"/>
                         <outlet property="tableView" destination="NKT-WO-3vz" id="UHD-8F-fCd"/>
                     </connections>
                 </viewController>
